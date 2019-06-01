@@ -1,0 +1,17 @@
+{
+  "name": "cross-module",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": {
+    "cross-mod": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "claude-ray",
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn": "^6.0.5"
+  }
+}
