@@ -5,6 +5,11 @@
 
 This package can help you transform invasive modules into non-invasive, with cross-platform support.
 
+# Installation
+```sh
+npm install --save-dev cross-module
+```
+
 # Why
 There are too many intrusive SDKs I need to import.
 
