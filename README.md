@@ -1,5 +1,8 @@
 # cross-module
 
+[![Build Status](https://travis-ci.org/Claude-Ray/cross-module.svg?branch=master)](https://travis-ci.org/Claude-Ray/cross-module)
+[![codecov](https://codecov.io/gh/Claude-Ray/cross-module/branch/master/graph/badge.svg)](https://codecov.io/gh/Claude-Ray/cross-module)
+
 This package can help you transform invasive modules into non-invasive, with cross-platform support.
 
 # Why
@@ -32,7 +35,7 @@ Just add `cross-mod ${moduleName/modulePath}` to npm scripts.
 }
 ```
 
-If you need custom features，add apm.js to your directory.
+If you need custom features，add `${moduleConfigFileName}.js` to your directory.
 ```js
 require('apm')({
   // options
