@@ -13,6 +13,5 @@ module.exports = args => {
   const filepath = path.resolve(filename)
   require(filepath)
 
-  const cp = spawn(command, commandArgs, { stdio: 'inherit' })
-  return cp
+  return spawn(command, commandArgs, { stdio: 'inherit' })
 }

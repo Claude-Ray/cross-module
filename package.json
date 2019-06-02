@@ -1,8 +1,12 @@
 {
   "name": "cross-module",
   "version": "0.0.1",
-  "description": "This package can help you transform invasive modules into non-invasive, with cross-platform support.",
-  "main": "lib/index.js",
+  "description": "A cross platform solution to require modules in npm-script",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "bin"
+  ],
   "bin": {
     "cross-mod": "bin/index.js"
   },
